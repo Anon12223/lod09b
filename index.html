@@ -23,17 +23,15 @@
 
     <div class="terminal hidden" id="screen2">
         <h2>DOSTĘP PRZYZNANY</h2>
-        <p>OBIEKT: PREZENT URODZINOWY</p>
-        <p>LOKALIZACJA: Paczkomat przy ul. [Twoja Ulica]</p>
-        <p>KOD ODBIORU: <strong>[TWÓJ KOD]</strong></p>
+        <p>OBIEKT: TAJNE</p>
+        <p>KOD ODBIORU: <strong>[689458]</strong></p>
         <p>STATUS: CZEKA NA PODJĘCIE</p>
     </div>
 
     <script>
         function check() {
             var p = document.getElementById('pass').value.toLowerCase();
-            // Hasłem może być np. Twoje nazwisko albo nazwa waszej ulubionej gry
-            if(p === 'kryptonim_wilk') {
+            if(p === 'kryptonim_szczupak12') {
                 document.getElementById('screen1').classList.add('hidden');
                 document.getElementById('screen2').classList.remove('hidden');
             } else {
