@@ -29,20 +29,7 @@
         <p>STATUS: CZEKA NA PODJĘCIE</p>
     </div>
 
-    <script>
-        function check() {
-            var p = document.getElementById('pass').value.toLowerCase();
-            if(p === 'kryptonim_szczupak12') {
-                document.getElementById('screen1').classList.add('hidden');
-                document.getElementById('screen2').classList.remove('hidden');
-            } else {
-                alert('BŁĄD AUTORYZACJI! PRÓBA ZAREJESTROWANA.');
-            }
-        }
-    </script>
-</body>
-
-<!-- 
+<div style="color: black;">
 ██████████████  ████  ████    ████    ██    ██████████████
 ██          ██  ████  ██    ████  ██        ██          ██
 ██  ██████  ██    ██████████████    ████    ██  ██████  ██
@@ -72,5 +59,20 @@
 ██  ██████  ██  ██  ████  ██  ████  ██  ██    ██    ██  ██
 ██          ██    ██  ██  ██    ██      ██  ██  ████  ██  
 ██████████████  ████    ██    ██  ██    ██  ████  ██  ██  
- -->
+</div>
+    
+    <script>
+        function check() {
+            var p = document.getElementById('pass').value.toLowerCase();
+            if(p === 'kryptonim_szczupak12') {
+                document.getElementById('screen1').classList.add('hidden');
+                document.getElementById('screen2').classList.remove('hidden');
+            } else {
+                alert('BŁĄD AUTORYZACJI! PRÓBA ZAREJESTROWANA.');
+            }
+        }
+    </script>
+</body>
+
+
 </html>
